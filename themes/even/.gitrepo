@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/olOwOlo/hugo-theme-even
+	branch = master
+	commit = 5840c2fdd37e995259f5e2fcc3b7bd3a33dbc3a7
+	parent = ce98f7feed33ce823a2a42c365e6d074fd968cfc
+	cmdver = 0.3.1
