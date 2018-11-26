@@ -13,7 +13,7 @@ after 30mn I had enough to consider a full migration.
 Steps:
 
 1. Install hugo with: **brew install hugo**
-2. Import my old Jekyll website with: **hugo import ./pgreze.github.io ./pgreze.fr**
+2. Import my old Jekyll website with: **hugo import ./pgreze.github.io ./pgreze.com**
 3. Choose a theme: I've chosen [even](https://github.com/olOwOlo/hugo-theme-even) but you can choose any theme you like in the [offical themes listing](https://themes.gohugo.io/).
 4. Use [Netlify](https://netlify.com) for hosting, reacting like travis-ci on every commits and rebuilding the website.
 5. Change the site name and postpone to buy a real domain name.

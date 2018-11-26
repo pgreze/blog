@@ -1,4 +1,4 @@
-# pgreze.fr
+# pgreze.com
 
 My [hugo](https://gohugo.io/) powered and [netlify](https://netlify.com) hosted blog.
 
