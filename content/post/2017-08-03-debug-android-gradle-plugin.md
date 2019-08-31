@@ -47,9 +47,9 @@ under **~/.gradle/caches/modules-2/files-2.1/com.android.tools.build/**:
 - builder/2.3.0/e2f05a09930ca699f9ca64b21564f252eca24fc9/builder-2.3.0.jar
 
 Select add JARs or libraries:
-![Add AGP libs to your projects](/assets/images/2017-08-03-debug-android-gradle-plugin/project-add-jar.png)
+![Add AGP libs to your projects](/assets/2017-08-03-debug-android-gradle-plugin/project-add-jar.png)
 And see the result:
-![AGP libs added in Intellij](/assets/images/2017-08-03-debug-android-gradle-plugin/agp-added.png)
+![AGP libs added in Intellij](/assets/2017-08-03-debug-android-gradle-plugin/agp-added.png)
 
 Nice, but it's just unreadable binary files... We need also **sources code**!!
 
@@ -62,7 +62,7 @@ But I personally prefer to just do like before via gradle cache, by looking for 
 
 Now, you're ready to debug AGP inside Intellij:
 
-![Debug AGP inside Intellij](/assets/images/2017-08-03-debug-android-gradle-plugin/debug-agp.png)
+![Debug AGP inside Intellij](/assets/2017-08-03-debug-android-gradle-plugin/debug-agp.png)
 
 ## Patching AGP
 
@@ -75,4 +75,4 @@ and will replace default plugin implementation.
 
 An example where 2 AGP classes are replaced by our Java files:
 
-<img src="/assets/images/2017-08-03-debug-android-gradle-plugin/fix-agp.png" alt="Fix AGP with your own classes" style="width: 500px;"/>
+<img src="/assets/2017-08-03-debug-android-gradle-plugin/fix-agp.png" alt="Fix AGP with your own classes" style="width: 500px;"/>
