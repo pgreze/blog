@@ -40,7 +40,7 @@ copyright = ""            # default: author.name
   # site info (optional)
   logoTitle = "Pierrick Greze"
   keywords = ["Android", "Kotlin", "Gradle", "Japan"]
-  description = "French Android developer currenly in Tokyo"
+  description = "Android developer living in Tokyo"
 
   # paginate of archives, tags and categories
   archivePaginate = 5
