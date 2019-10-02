@@ -1,4 +1,4 @@
-baseURL = "http://pgreze.github.io/"
+baseURL = "http://pgreze.netlify.com"
 languageCode = "en"
 title = "Pierrick Greze"
 theme = "even"
