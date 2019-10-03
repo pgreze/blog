@@ -1,5 +1,5 @@
 ---
-title: "Universal Apk Commands"
+title: "Universal Apk, the survival guide"
 date: 2019-10-02T11:32:59+09:00
 ---
 
