@@ -1,4 +1,4 @@
-name: CI
+name: staging
 
 on: [pull_request]
 
@@ -13,8 +13,8 @@ jobs:
         hugo-version: '0.55.6'
     - name: Hugo Build
       run: hugo --minify
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - uses: w9jds/firebase-action@master
       with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        publish_dir: ./public
+          args: deploy --only hosting:pgreze-staging -m "#${{ env.PULL_REQUEST_NUMBER }} hash=${{ env.GITHUB_SHA }}"
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
