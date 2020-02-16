@@ -1,10 +1,19 @@
 {
-  "hosting": {
+  "hosting": [{
+    "site": "pgreze",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  }, {
+    "site": "pgreze-staging",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
 }
