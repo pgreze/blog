@@ -9,3 +9,5 @@ hugo*
 /resources/_gen
 
 # End of https://www.gitignore.io/api/hugo
+
+.firebase

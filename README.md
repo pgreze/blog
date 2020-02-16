@@ -54,3 +54,28 @@ git subrepo pull themes/even -b v4.0.0
 # Force upgrade
 git subrepo clone https://github.com/olOwOlo/hugo-theme-even.git themes/even -f -b v4.0.0
 ```
+
+## Firebase
+
+Ensure .firebaserc is existing:
+
+```
+{
+  "projects": {
+    "default": "MY_PROJECT"
+  }
+}
+```
+
+Usage:
+
+```
+# Install
+brew install firebase-cli
+
+# Serve locally
+firebase serve --host 0.0.0.0
+
+# Deploy
+firebase deploy
+```
