@@ -1,6 +1,6 @@
 # pgreze.com
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b849cb37-f780-42ba-9405-d069771080a2/deploy-status)](https://app.netlify.com/sites/pgreze/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b849cb37-f780-42ba-9405-d069771080a2/deploy-status)](https://app.netlify.com/sites/pgreze/deploys) [![Firebase Hosting](https://github.com/pgreze/blog/workflows/prod/badge.svg)](https://console.firebase.google.com/project/blog-78f07/hosting/sites/pgreze)
 
 My [hugo](https://gohugo.io/) powered and [netlify](https://netlify.com) hosted blog.
 
