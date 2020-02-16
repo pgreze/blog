@@ -7,9 +7,9 @@ enableRobotsTXT = true
 enableEmoji = true
 
 preserveTaxonomyNames = true
-hasCJKLanguage = false     # has chinese/japanese/korean ?
+hasCJKLanguage = false # Enable if include JP
 paginate = 5
-googleAnalytics = "UA-75971334-1"      # UA-XXXXXXXX-X
+googleAnalytics = "UA-75971334-1"
 copyright = ""            # default: author.name
 
 [author]
