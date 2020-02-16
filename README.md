@@ -43,3 +43,14 @@ hogu server -D
 hugo
 ```
 
+## Themes
+
+themes/even is used with [subrepo](https://github.com/ingydotnet/git-subrepo).
+
+```
+# Upgrade
+git subrepo pull themes/even -b v4.0.0
+
+# Force upgrade
+git subrepo clone https://github.com/olOwOlo/hugo-theme-even.git themes/even -f -b v4.0.0
+```
