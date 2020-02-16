@@ -15,6 +15,6 @@ jobs:
       run: hugo --minify
     - uses: w9jds/firebase-action@master
       with:
-          args: deploy --only hosting:pgreze-staging -m "#${{ env.PULL_REQUEST_NUMBER }} hash=${{ env.GITHUB_SHA }}"
+          args: deploy --only hosting:pgreze-staging
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
