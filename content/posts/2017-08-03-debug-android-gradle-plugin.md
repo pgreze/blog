@@ -75,4 +75,4 @@ and will replace default plugin implementation.
 
 An example where 2 AGP classes are replaced by our Java files:
 
-<img src="/assets/2017-08-03-debug-android-gradle-plugin/fix-agp.png" alt="Fix AGP with your own classes" style="width: 500px;"/>
+{{< image src="/assets/2017-08-03-debug-android-gradle-plugin/fix-agp.png" alt="Fix AGP with your own classes" style="width: 500px;" >}}

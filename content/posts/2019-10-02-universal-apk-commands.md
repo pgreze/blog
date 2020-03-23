@@ -8,11 +8,11 @@ It was pretty easy and a huge success: Play Store indicates that **APKs generate
 
 But the main issues appeared when I tried to test the first release and, later on, introduce it in day to day workflow: we're using a mix of [Deploygate](https://deploygate.com/dashboard) and internal tooling in order to QA our changes before releasing to the Play Store. The new [Internal app sharing](https://support.google.com/googleplay/android-developer/answer/9303479) is supposed to help but **we cannot change workflows used by so many people in the company that easily**.
 
-I decided to continue promoting APK usage internally. After all, the Android Studio workflow was gracefully supporting the dynamic feature module, and the app runner gave the false impression that **assemble** tasks (like app:assembleDebug) were including dynamic feature modules with **onDemand=false**. <span style="color:red">This is wrong!</span>.
+I decided to continue promoting APK usage internally. After all, the Android Studio workflow was gracefully supporting the dynamic feature module, and the app runner gave the false impression that **assemble** tasks (like app:assembleDebug) were including dynamic feature modules with **onDemand=false**. *This was wrong!*.
 
 This post is a summary of my experiments in order to use AAB and APK with onDemand=false dynamic feature modules.
 
-<img src="/assets/2019-11-02-universal-apk-commands/app-runner-settings.png" alt="en-front" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-11-02-universal-apk-commands/app-runner-settings.png" position="center" >}}
 
 *App runner was definitely too complex to just be a wrapper of assembleDebug.*
 
@@ -22,7 +22,7 @@ In order to understand the solution, we need to understand what's a universal AP
 
 First of all, Android App Bundle is implemented by [bundletool](https://github.com/google/bundletool), a Java based library/CLI open source project that mimics the process an AAB goes through when it's uploaded to the Play Store. Main commands are:
 
-```
+```bash/shell
 # Generate an AAB that we will use with bundletool
 ./gradlew app:bundleDebug
 

@@ -54,7 +54,7 @@ Front template:
 {{/Meaning1}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/en-front.png" alt="en-front" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/en-front.png" alt="en-front" style="width: 500px; border: 1px solid black" >}}
 
 Back template:
 
@@ -82,7 +82,7 @@ Back template:
 {{/Exp2}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/en-back.png" alt="en-back" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/en-back.png" alt="en-back" style="width: 500px; border: 1px solid black" >}}
 
 ### KJ -> all
 
@@ -95,7 +95,7 @@ Front template:
 {{/Reading}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/kj-front.png" alt="kj-front" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/kj-front.png" alt="kj-front" style="width: 500px; border: 1px solid black" >}}
 
 Back template:
 
@@ -123,7 +123,7 @@ Back template:
 {{/Exp2}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/kj-back.png" alt="kj-back" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/kj-back.png" alt="kj-back" style="width: 500px; border: 1px solid black" >}}
 
 ### Exp1
 
@@ -154,7 +154,7 @@ Front template:
 {{/Exp1 JP}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/exp1-front.png" alt="exp1-front" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/exp1-front.png" alt="exp1-front" style="width: 500px; border: 1px solid black" >}}
 
 Back template:
 
@@ -184,7 +184,7 @@ Back template:
 {{/Meaning2}}
 ```
 
-<img src="/assets/2019-08-31-advanced-anki-note-type/exp1-back.png" alt="exp1-back" style="width: 500px; border: 1px solid black"/>
+{{< image src="/assets/2019-08-31-advanced-anki-note-type/exp1-back.png" alt="exp1-back" style="width: 500px; border: 1px solid black" >}}
 
 ## Card style (for all card types)
 
