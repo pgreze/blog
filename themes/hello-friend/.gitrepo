@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/panr/hugo-theme-hello-friend.git
+	branch = master
+	commit = 251e3c8eda5acbaaff90d43cd1ae8a441e804452
+	parent = 1f000c4fad53f45ea837817e2d15633c434f0a78
+	method = merge
+	cmdver = 0.4.1
