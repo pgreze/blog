@@ -41,13 +41,3 @@ paginate = 5
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
