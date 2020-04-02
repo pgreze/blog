@@ -23,13 +23,13 @@
       {{ end }}
     </div>
 
-    {{ if .Params.tags }}
+    <!--{{ if .Params.tags }}
       <span class="post-tags">
         {{ range .Params.tags }}
           #<a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">{{ . }}</a>&nbsp;
         {{ end }}
       </span>
-    {{ end }}
+    {{ end }}-->
 
     {{ if .Params.Cover }}
       {{ if .Params.UseRelativeCover }}
