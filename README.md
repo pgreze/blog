@@ -55,6 +55,18 @@ git subrepo pull themes/even -b v4.0.0
 git subrepo clone https://github.com/olOwOlo/hugo-theme-even.git themes/even -f -b v4.0.0
 ```
 
+To update styles:
+
+```
+cd themes/hello-friend
+
+# Install dependencies
+yarn install
+
+# Build assets
+yarn build
+```
+
 ## Firebase
 
 Ensure .firebaserc is existing:
