@@ -1,6 +1,6 @@
 name: staging
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   build-deploy:
@@ -12,7 +12,7 @@ jobs:
       with:
         hugo-version: '0.68.1'
     - name: Hugo Build
-      run: hugo --minify
+      run: hugo --minify --buildDrafts
     - uses: w9jds/firebase-action@master
       with:
           args: deploy --only hosting:pgreze-staging
