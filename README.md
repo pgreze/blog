@@ -6,6 +6,24 @@ My [hugo](https://gohugo.io/) powered and [netlify](https://netlify.com) hosted 
 
 ## Usage
 
+```
+# Install
+brew install hugo
+
+# Create a new post
+hugo new post/2019-10-02-universal-apk-commands.md
+
+# Start server
+hugo server
+# With drafts
+hogu server -D
+
+# Create release in public/
+hugo
+```
+
+### With a specific version
+
 To use always the same version with docker (-extras is adding py-pygments):
 
 ```
@@ -25,34 +43,16 @@ docker run --rm -it -v $PWD:/src -u hugo jguyomard/hugo-builder:0.55-extras hugo
 cd public/ && python3 -m http.server
 ```
 
-Sadly brew is not usable because current hugo version (0.64.1) is not rendering images:
-
-```
-# Install
-brew install hugo
-
-# Create a new post
-hugo new post/2019-10-02-universal-apk-commands.md
-
-# Start server
-hugo server
-# With drafts
-hogu server -D
-
-# Create release in public/
-hugo
-```
-
 ## Themes
 
-themes/even is used with [subrepo](https://github.com/ingydotnet/git-subrepo).
+They're handled with [subrepo](https://github.com/ingydotnet/git-subrepo).
 
 ```
 # Upgrade
-git subrepo pull themes/even -b v4.0.0
+git subrepo pull themes/hello-friend
 
 # Force upgrade
-git subrepo clone https://github.com/olOwOlo/hugo-theme-even.git themes/even -f -b v4.0.0
+git subrepo clone https://github.com/panr/hugo-theme-hello-friend.git themes/hello-friend -f
 ```
 
 To update styles:
