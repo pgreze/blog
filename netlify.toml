@@ -1,7 +1,7 @@
 [context.production.environment]
   HUGO_VERSION = "0.42.1"
 [[redirects]]
-  from = "http://pgreze.netlify.com"
+  from = "/*"
   to = "https://pgreze.dev"
   status = 301
   force = true
