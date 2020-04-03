@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 99
+# https://support.google.com/analytics/answer/1008080
+googleAnalytics = "UA-75971334-1"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
