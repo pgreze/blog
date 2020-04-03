@@ -1,6 +1,7 @@
 <header class="header">
   <span class="header__inner">
     {{ partial "logo.html" . }}
+    {{ partial "social.html" . }}
     <span class="header__right">
       {{ if len $.Site.Menus }}
         {{ partial "menu.html" . }}

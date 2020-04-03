@@ -18,6 +18,10 @@ googleAnalytics = "UA-75971334-1"
   # Show reading time in minutes for posts
   showReadingTime = true
 
+  github = "pgreze"
+  twitter = "p_greze"
+  linkedin = "pierrick.greze"
+
 [languages]
   [languages.en]
     title = "pgreze"

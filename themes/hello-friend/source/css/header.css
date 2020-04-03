@@ -30,6 +30,16 @@
   }
 }
 
+.social-link {
+  margin-right: 1rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;
@@ -39,5 +49,7 @@
 }
 
 .theme-toggler {
+  width: 24px;
+  height: 24px;
   fill: currentColor;
 }
