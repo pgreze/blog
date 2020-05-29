@@ -175,4 +175,4 @@ My setup is [pretty simple](https://github.com/pgreze/kounter/blob/76fb78ecf338b
 
 I found **NETLIFY_SITE_ID** in the `.netlify/state.json` file created after I deployed the first version locally, and a new **NETLIFY_AUTH_TOKEN** can be generated in the [Netlify UI](https://docs.netlify.com/cli/get-started/#obtain-a-token-in-the-netlify-ui).
 
-And reagrding [Github secrets setup](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets), that's something you probably learned quickly after starting to use Github Actions.
+And regarding [Github secrets setup](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets), that's something you probably learned quickly after starting to use Github Actions.
