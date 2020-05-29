@@ -1,7 +1,7 @@
 ---
 title: "Host your Github Actions generated Dokka documentation on Netlify"
 date: 2020-05-28T21:55:09+09:00
-draft: true
+draft: false
 ---
 
 Recently I was playing with a new [Kotlin project](https://github.com/pgreze/kounter), trying to bring some Python goodness into Kotlin.
