@@ -18,7 +18,7 @@ This is the story of how I could plug together:
 
 And at the end have an easy to build documentation, refreshed every time a new version is published.
 
-⚠️ All examples are using a project named **kounter**. Replace all occurences with your own project name!!
+⚠️ All examples are using a project named **kounter**. Replace all occurences with your own project name.
 
 ## Dokka
 
@@ -131,7 +131,7 @@ but nowadays [Netlify](https://www.netlify.com/github-pages-vs-netlify/)
 has surpassed it:
 - Deploy Previews 🤩
 - Compatible with all Static Site Generators 🤩
-- ~~Support [@cassidoo](https://twitter.com/cassidoo) in bringing joy to our lives~~
+- Support [@cassidoo](https://twitter.com/cassidoo) in bringing joy to our lives
 
 I had thought Netlify was only [consuming a git repository](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/), the same way as Github Pages.
 But there's also a [command line client](https://docs.netlify.com/cli/get-started/)
