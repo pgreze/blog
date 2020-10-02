@@ -45,7 +45,7 @@ After choosing which format you prefer, now it's time to include Dokka in your G
 
 ```kotlin
 plugins {
-    id 'org.jetbrains.dokka' version '0.10.1'
+    id("org.jetbrains.dokka") version "0.10.1"
 }
 
 tasks.dokka {
@@ -93,7 +93,7 @@ Thanks to Gradle Kotlin DSL, it's really easy to create a custom task *finalizin
 
 ```kotlin
 val moveCss by tasks.registering {
-    description = "Move style.css in kounter folder (distribution friendly)."
+    description = "Move style.css in the same location than index.html."
     fun File.rewriteStyleLocations() {
         readText().replace("../style.css", "style.css")
             .also { writeText(it) }
@@ -104,11 +104,12 @@ val moveCss by tasks.registering {
         }
     }
     doLast {
-        val dokkaOutputDirectory = file(tasks.dokka.get().outputDirectory)
-        val kounterFolder = dokkaOutputDirectory.resolve("kounter")
-        kounterFolder.recursivelyRewriteStyleLocations()
+        val dokkaTask = tasks.dokka.get()
+        val dokkaOutputDirectory = file(dokkaTask.outputDirectory)
+        val dokkaSingleModuleFolder = dokkaOutputDirectory.resolve(dokkaTask.configuration.moduleName)
+        dokkaSingleModuleFolder.recursivelyRewriteStyleLocations()
         dokkaOutputDirectory.resolve("style.css").also {
-            it.renameTo(kounterFolder.resolve(it.name))
+            it.renameTo(dokkaSingleModuleFolder.resolve(it.name))
         }
     }
 }
@@ -131,7 +132,7 @@ but nowadays [Netlify](https://www.netlify.com/github-pages-vs-netlify/)
 has surpassed it:
 - Deploy Previews 🤩
 - Compatible with all Static Site Generators 🤩
-- Support [@cassidoo](https://twitter.com/cassidoo) in bringing joy to our lives
+- Support [@cassidoo](https://twitter.com/cassidoo) in bringing joy to our lives 🎉
 
 I had thought Netlify was only [consuming a git repository](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/), the same way as Github Pages.
 But there's also a [command line client](https://docs.netlify.com/cli/get-started/)
