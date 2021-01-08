@@ -49,8 +49,8 @@ it's not what we can define as an easy solution.
 
 [script]: https://github.com/pgreze/dotfiles/blob/main/bin/aidea.py
 
-That's why stay in Android Studio would be more convenient,
-so let's try to discover how we can use it to quickly run arbitrary commands.
+That's why ideally stay in Android Studio would be more convenient,
+so let's see what's available in order to run arbitrary commands.
 
 # Android Studio hidden gem: run arbitrary Gradle commands from your IDE
 
