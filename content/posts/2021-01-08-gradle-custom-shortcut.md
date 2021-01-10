@@ -4,6 +4,8 @@ date: 2021-01-08T16:48:02+09:00
 draft: false
 ---
 
+(Thx to [@CaunterEmma](https://twitter.com/CaunterEmma) for her contribution)
+
 As you've probably noticed, the switch between your dear Android Studio and your terminal
 is not without some latency / weird error messages about some Gradle daemons that could not be reused.
 
