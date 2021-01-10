@@ -76,6 +76,6 @@ Now press ⌥ + enter (on OSX) to assign your own custom shortcut (I chose ⌥ +
 
 And now try your new shortcut to execute any command,
 with the option to run it for all modules or the one you prefer,
-and without leaving Android Studio and override your terminal 🙌
+and without leaving Android Studio and overriding your terminal 🙌
 
 {{< image src="/assets/2021-01-08-gradle-custom-shortcut/run-gradle-command.png" position="center" >}}
