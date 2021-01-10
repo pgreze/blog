@@ -52,7 +52,7 @@ it's not what we can define as an easy solution.
 That's why ideally staying in Android Studio would be more convenient,
 so let's see what's available in order to run arbitrary commands.
 
-# Android Studio hidden gem: run arbitrary Gradle commands from your IDE
+# Android Studio's hidden gem: running arbitrary Gradle commands from your IDE
 
 Android Studio is providing a Gradle helper, allowing to discover and
 run commands directly from your IDE:
