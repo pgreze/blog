@@ -61,7 +61,7 @@ run commands directly from your IDE:
 
 It's a convenient tool for beginners, but if you already know which command you're looking for,
 you need to find it in one of these folders, and it requires several clicks before finding your command,
-if its not lost in the middle of 1000 other ones...
+if it's not lost in the middle of 1000 other ones...
 
 Luckily there's a way to **run any command, just by entering its name, using only your keyboard**.
 It relies on IntelliJ's ability to assign a custom shortcut to any available action.
