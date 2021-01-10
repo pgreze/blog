@@ -1,6 +1,6 @@
 name: staging
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   build-deploy:
@@ -8,9 +8,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Hugo setup
-      uses: peaceiris/actions-hugo@v2.4.5
+      uses: peaceiris/actions-hugo@v2.4.13
       with:
-        hugo-version: '0.68.1'
+        hugo-version: '0.80.0'
     - name: Hugo Build
       run: hugo --minify --buildDrafts
     - uses: w9jds/firebase-action@master

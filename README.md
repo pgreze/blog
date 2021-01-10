@@ -6,7 +6,7 @@ My [hugo](https://gohugo.io/) powered and [netlify](https://netlify.com) hosted 
 
 ## Usage
 
-```
+```bash
 # Install
 brew install hugo
 
