@@ -19,10 +19,8 @@ That's convenient for sure, but it's not something your Gradle project is aware 
 if you're trying to use Gradle without Android Studio's help,
 you will probably fallback to your default system JDK,
 which is not the one that Android Studio is using.
-It can affect you in 2 ways:
 
-1. not re-using the existing Gradle daemon (!!)
-1. not re-using your build cache (if your default JDK has a different version than the AS's one)
+But why should you care? The [Gradle daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:why_the_daemon) is one of the key features in order to speed up your builds and so, not using it efficiently can damage your day to day productivity.
 
 Let's see quickly how to fix this issue, either in your terminal
 or by leveraging one of Android Studio's hidden gems.
