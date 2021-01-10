@@ -17,7 +17,7 @@ That's convenient for sure, but it's not something your Gradle project is aware 
 if you're trying to use Gradle without Android Studio's help,
 you will probably fallback to your default system JDK,
 which is not the one that Android Studio is using.
-It can affects you in 2 ways:
+It can affect you in 2 ways:
 
 1. not re-using the existing Gradle daemon (!!)
 1. not re-using your build cache (if your default JDK has a different version than the AS's one)
