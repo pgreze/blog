@@ -13,7 +13,7 @@ The reason is because Android Studio is coming by default with its own JDK insta
 which lets you use Android Studio without installing Java
 or be sure all of your team is using the same compiler.
 
-That's convenient for sure, but it's not something your Gradle project is aware and so,
+That's convenient for sure, but it's not something your Gradle project is aware of and so,
 if you're trying to use Gradle without Android Studio's help,
 you will probably fallback to your default system JDK,
 which is not the one that Android Studio is using.
