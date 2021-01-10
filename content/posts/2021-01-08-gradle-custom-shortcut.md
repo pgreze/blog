@@ -11,7 +11,7 @@ is not without some latency / weird error messages about some Gradle daemons tha
 
 The reason is because Android Studio is coming by default with its own JDK installation,
 which lets you use Android Studio without installing Java
-or to be sure all your team is using the same compiler.
+or be sure all of your team is using the same compiler.
 
 That's convenient for sure, but it's not something your Gradle project is aware and so,
 if you're trying to use Gradle without Android Studio's help,
