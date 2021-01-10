@@ -66,7 +66,7 @@ if its not lost in the middle of 1000 other ones...
 Luckily there's a way to **run any command, just by entering its name, using only your keyboard**.
 It relies on IntelliJ's ability to assign a custom shortcut to any available action.
 
-First use Command + Shift + A (on OSX) to search the **Execute Gradle Task** action:
+First use Command + Shift + A (on OSX) to search for the **Execute Gradle Task** action:
 
 {{< image src="/assets/2021-01-08-gradle-custom-shortcut/search-gradle-run.png" position="center" style="width: 500px" >}}
 
