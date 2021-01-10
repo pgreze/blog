@@ -10,7 +10,7 @@ is not without some latency / weird error messages about some Gradle daemons tha
 {{< image src="/assets/2021-01-08-gradle-custom-shortcut/not-reused.png" position="center" >}}
 
 The reason is because Android Studio is coming by default with its own JDK installation,
-allowing to use Android Studio without having to install Java
+which lets you use Android Studio without installing Java
 or to be sure all your team is using the same compiler.
 
 That's convenient for sure, but it's not something your Gradle project is aware and so,
