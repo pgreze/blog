@@ -64,7 +64,7 @@ you need to find it in one of these folders, and it requires several clicks befo
 if its not lost in the middle of 1000 other ones...
 
 Luckily there's a way to **run any command, just by entering its name, using only your keyboard**.
-It's relying on the IntelliJ's ability to assign custom shortcut to any available action.
+It relies on IntelliJ's ability to assign a custom shortcut to any available action.
 
 First use Command + Shift + A (on OSX) to search the **Execute Gradle Task** action:
 
