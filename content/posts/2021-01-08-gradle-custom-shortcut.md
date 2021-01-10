@@ -23,7 +23,7 @@ It can affect you in 2 ways:
 1. not re-using your build cache (if your default JDK has a different version than the AS's one)
 
 Let's see quickly how to fix this issue, either in your terminal
-or by leveraging an Android Studio's hidden gem.
+or by leveraging one of Android Studio's hidden gems.
 
 # Use the same JDK in your terminal
 
