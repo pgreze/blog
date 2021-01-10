@@ -9,7 +9,7 @@ is not without some latency / weird error messages about some Gradle daemons tha
 
 {{< image src="/assets/2021-01-08-gradle-custom-shortcut/not-reused.png" position="center" >}}
 
-The reason is because Android Studio is coming by default with its own JDK installation,
+The reason is because Android Studio has its own default JDK installation,
 which lets you use Android Studio without installing Java
 or be sure all of your team is using the same compiler.
 
